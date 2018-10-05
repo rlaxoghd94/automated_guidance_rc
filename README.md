@@ -1,6 +1,6 @@
 # Automated Guidance RC System
 ## Konkuk University 2018 Fall Graduation Project
-### Team Members: Taehong Kim, Taejun Kang, Uri Hong, Jongwon Song
+### Team Members: 송종원, 강태준, 홍유리, 김태홍
 
 
 ### Handling Criteria
