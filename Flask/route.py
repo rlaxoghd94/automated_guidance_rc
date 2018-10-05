@@ -20,7 +20,6 @@ def snapshot(filename):
         return '200'
     else:
         return '100'
-    return 'SNAPSHOT!'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8000, debug=True)

@@ -15,14 +15,9 @@ with picamera.PiCamera() as camera:
         ts = strftime('%Y%m%d_%H:%M:%S', gmtime())
         
         start = time()
-        #camera.capture_sequence(['./testFolder/image%02d.jpg' % i for i in range(40)], use_video_port=True)
+        # continously captures image until interrupted
         for filename in camera.capture_continuous('./testFolder/image{timestamp:%H:%M:%S.%f}.jpg', use_video_port=True):
                 finish = time()
                 print('Captured %s at %.2ffps duration: %.2f sec' % (filename, (1 / (finish - start)), (finish - start)))
                 wait(finish-start)
                 start = time()
-        
-        print('Captured 40 images at %.2ffps' % (40 / (finish - start)))
-
-
-
