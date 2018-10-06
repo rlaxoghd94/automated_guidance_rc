@@ -13,7 +13,9 @@ def upload():
 def snapshot(filename):
     if request.method == 'POST':
         f = request.files['files']
-        f_name = filename   
+        f_name = filename
+        # TODO: when Jongwon is done with this,
+        # modify the codes, so that it doesn't save images locally
         print('\n[+ POST REQ]  /upload/snapshot/ : filename => ' + f_name + '\n')       
         dir_path = os.path.dirname(os.path.realpath(__file__)) + '/uploaded/' + f_name
         f.save(dir_path)
