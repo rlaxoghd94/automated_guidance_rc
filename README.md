@@ -34,4 +34,4 @@
  - [ ] 급커브
 
 ### Process Reference Page
-[Trello Link]("https://trello.com/b/l4zTimYV/ku2018fallgradproject")
+[Trello Link](https://trello.com/b/l4zTimYV/ku2018fallgradproject)
