@@ -6,7 +6,7 @@ import serial
 from time import sleep, time
 
 app = Flask( __name__ )
-ser = serial.Serial('/dev/ttyACM0', 9600)
+#ser = serial.Serial('/dev/ttyACM0', 9600)
 
 cnt = -1
 @app.route('/control/', methods=['POST'])
@@ -18,7 +18,7 @@ def control():
         print(d['key'].encode())
 
         # TODO: SEND SERIAL SIGNAL HERE
-        ser.write(str.encode(d['key']+'\n'))
+ #       ser.write(str.encode(d['key']+'\n'))
 
         with picamera.PiCamera() as camera:
             camera.resolution=(256, 256)

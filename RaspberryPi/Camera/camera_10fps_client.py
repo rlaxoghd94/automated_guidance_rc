@@ -27,14 +27,14 @@ def wait(duration):
         if (duration <= 0.1):
             sleep( 0.1 - int(duration) )
 
-url = "http://0.0.0.0:8000/upload/snapshot/{}"
+url = "http://203.252.160.76:8000/upload/snapshot/{}"
 status = True
 counter = 0
 
 with picamera.PiCamera() as camera:
     camera.resolution = (256, 256)
-    camera.framerate = 90
-    #camera.start_preview()
+    camera.framerate = 30
+    camera.start_preview()
     sleep(1)
 
     ts = strftime('%Y%m%d_%H:%M:%S', gmtime())
