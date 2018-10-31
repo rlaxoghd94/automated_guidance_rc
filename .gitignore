@@ -1,1 +1,9 @@
-.AppleDouble/
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Remote AFP share
+.AppleDB
+.AppleDesktop
+.apdisk
