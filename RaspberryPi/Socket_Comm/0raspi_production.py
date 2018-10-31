@@ -10,7 +10,7 @@ import json
 
 CONST_DELAY_INTERVAL = 0.1
 
-ser = serial.Serial('/dev/ttyACM1', 9600)
+ser = serial.Serial('/dev/ttyACM0', 9600)
 
 def initConnection():
         sock = socket.socket()
@@ -46,7 +46,6 @@ if __name__ == '__main__':
                 start = time()
                 stream = io.BytesIO()
                 for foo in camera.capture_continuous(stream, 'jpeg', use_video_port=True):
-                        # TODO: send motor values to the server HERE
                         connection.write( struct.pack('<i', stream.tell()))
                         connection.flush()
                         
@@ -58,9 +57,9 @@ if __name__ == '__main__':
                         
                         motor = 0
                         if angle > 1750 or angle < 1250:
-                                motor = 160
+                                motor = 245
                         else:
-                                motor = 170
+                                motor = 255
 
                         print('\t\tAngle: {} Motor: {}'.format(angle, motor) )
                        # ser.write(str.encode( str(angle) + '\0' ))
