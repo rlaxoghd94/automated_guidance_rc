@@ -66,7 +66,6 @@ if __name__ == '__main__':
                        # ser.write(str.encode( str(angle) + '\0' ))
                         ser.write( str.encode( str(angle) + str(motor) ))
                         sleep(0.1)
-                        print('\t\tFUUUUUUUUCK')   
                         # ser.write(str.encode( str(motor) + '\0' ))
                         #ser.write( struct.pack('<i', angle) )
                         #ser.write( struct.pack('<i', motor) )
