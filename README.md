@@ -54,6 +54,6 @@
 - [Trello Link](https://trello.com/b/l4zTimYV/finished-ku2018fallgradproject)
 
 ### Docs
- - [KISC_추계학술대회_9D-41]()
- - [Konkuk_최종보고서]()
- - [Konkuk_졸업작품전_PPT]()
+ - [KISC_추계학술대회_9D-41](https://github.com/rlaxoghd94/automated_guidance_rc/blob/master/Docs/%5BKISC_%EC%B6%94%EA%B3%84%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C%5D9D-41.pdf)
+ - [Konkuk_최종보고서](https://github.com/rlaxoghd94/automated_guidance_rc/blob/master/Docs/%5B%EC%A1%B8%EC%97%85%EC%9E%91%ED%92%88%5D_%EC%B5%9C%EC%A2%85%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)
+ - [Konkuk_졸업작품전_PPT](https://github.com/rlaxoghd94/automated_guidance_rc/blob/master/Docs/%5B%EC%BB%B4%EA%B3%B5_%EC%A1%B8%EC%97%85%EC%9E%91%ED%92%88%EC%A0%84%5D%20PPT.pptx)
